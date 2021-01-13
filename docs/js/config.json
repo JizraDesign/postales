@@ -1,0 +1,31 @@
+{
+    "date":[
+        {
+            "name":"Navidad",
+            "temp":"xmas",
+            "video" : "santa.mp4",
+            "musica" : "Hacia-Belen.mp3",
+            "background" : "doll-figures.jpg",
+            "title" : "¡Días para Navidad!",
+            "texto" : ["Aunque en esta ocasión no podamos estar rodeados de todos nuestros seres queridos, les quiero desear una feliz navidad, prospero año nuevo y que todos sus sueños se vuelvan realidad. ¡Que dios los bendiga, nos vemos en enero!"]
+        },
+        {
+            "name":"Año nuevo",
+            "temp":"new-year",
+            "video" : "Happy-New-Year.mp4",
+            "musica" : "Happy-Xmas.mp3",
+            "background" : "background-new-year.jpg",
+            "title" : "¡Días para Año Nuevo!",
+            "texto" : ["El futuro pertenece a quienes creen en la belleza de los sueños. ¡Que el Nuevo Año te traiga muchos sueños y hermosas satisfacciones!", "Espero que este año cometas errores, pues cometer errores significa hacer cosas nuevas, aprender, vivir y cambiar el mundo."]
+        },
+        {
+            "name":"Dia de la amistad",
+            "temp":"love",
+            "video" : "",
+            "musica" : "",
+            "background" : "back-heart.jpg",
+            "title" : "¡Feliz dia de la amistad!",
+            "texto" : ["Dia de la amistad."]
+        }
+    ]
+}

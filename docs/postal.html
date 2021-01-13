@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postal de temporada</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+    <meta property="og:title" content="Postal de temporada" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://jizradesign.github.io/postales-tematicas-jessi/postal.html" />
+    <meta property="og:image" content="https://jizradesign.github.io/postales-tematicas-jessi/img/portada.jpg" />
+    <meta property="og:description" content="Con cariño para ti, de Miss Yessi." />
+    <meta property="og:site_name" content="Diseño LVJizra" />
+    
+    <meta name="twitter:card" content="Tarjeta">
+    <meta name="twitter:site" content="@icalcifer">
+    <meta name="twitter:title" content="Postal de temporada">
+    <meta name="twitter:description" content="Con cariño para ti, de Miss Yessi.">
+    <meta name="twitter:creator" content="@icalcifer">
+    <meta name="twitter:image" content="https://jizradesign.github.io/postales-tematicas-jessi/img/portada.jpg">
+    
+    <meta itemprop="name" content="Postal de temporada">
+    <meta itemprop="description" content="Con cariño para ti, de Miss Yessi.">
+    <meta itemprop="image" content="https://jizradesign.github.io/postales-tematicas-jessi/img/portada.jpg">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="center">
+    <div id="particles-js"></div>
+    <article class="tarjeta center">
+        <h1 id="title" class="title"></h1>
+        <section class="contenido">
+            <video id="video" loop type="video/mp4"></video>
+            <div id="contadorNavideno" class="center">
+                <div class="block center">
+                    <div id="dias" class="numero">0</div>
+                    <span>Días</span>
+                </div>
+                <div class="block center">
+                    <div id="hors" class="numero">0</div>
+                    <span>Horas</span>
+                </div>
+                <div class="block center">
+                    <div id="min" class="numero">0</div>
+                    <span>Minutos</span>
+                </div>
+                <div class="block center">
+                    <div id="segs" class="numero">0</div>
+                    <span>Segundos</span>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <p id="to" class="to"></p>
+            <p id="texto"></p>
+            <p id="from" class="from"></p>
+        </div>
+
+        <div class="cont__btn center">
+            <div class="btn center">
+                <i class="fas fa-volume-mute"></i>
+            </div>
+        </div>
+        <audio id="mySong" type="audio/mp3"></audio>
+    </article>
+    <div class="modal center">
+        <div class="message center">
+            <p>¡<span class="to"></span>, espero les guste este pequeño presente!</p>
+            <div class="cont__btn center">
+                <div class="btn center">
+                    <div class="text__btn">Ver postal</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/particles.min.js"></script>
+    <script src="https://kit.fontawesome.com/1f8614daef.js" crossorigin="anonymous"></script>
+    <script src="js/Postal.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
