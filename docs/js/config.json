@@ -21,11 +21,11 @@
         {
             "name":"Dia de la amistad",
             "temp":"love",
-            "video" : "",
-            "musica" : "",
+            "video" : "amor-amistad.mp4",
+            "musica" : "hey-mickey.mp3",
             "background" : "back-heart.jpg",
             "title" : "¡Feliz dia de la amistad!",
-            "texto" : ["Dia de la amistad."]
+            "texto" : ["No hay nada más bonito de un amigo que tengas la oportunidad de hablar con él como si lo hicieses contigo mismo.","Para preservar un amigo 3 cosas son necesarias: honrarlo cuando esté presente, valorarlo cuando esté ausente, y asistirlo cuando lo necesite. -Proverbio Italiano"]
         }
     ]
 }
